@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: "jdbc:mysql://localhost/cars"
+    username: cars
+    password: cars
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
